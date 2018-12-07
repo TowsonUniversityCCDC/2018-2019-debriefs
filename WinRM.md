@@ -10,6 +10,9 @@ commands on a target remote system, simlar to PSExec. </h3>
 Management Service </li>
 <li> Computer Configuration -> Perferences -> Control Panel Settings -> Services</li>
 <li> Add a New Service </li>
-<h6> Use the following settings AND on the Recovery Tab, restart the serfice if it fails.
+  <h6> Use the following settings AND on the Recovery Tab, restart the serfice if it fails.</h6>
+  <li> Computer Configuration -> Policies -> Administrative Templates -> Windows COmponents ->
+    Windows Remote Management -> WinRM Service </li>
+  <h6> Enable the option "ALlow remote server management through WinRM" </h6>
 </ul>
 
