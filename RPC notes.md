@@ -33,9 +33,4 @@
       <h6> This will print out the list of current running processes on the remote machine.
       Use this information to kill the active Internet Explorer session. </h6>
   </ul>
-  <h3> Please be aware! </h3>
-  <h4> RPC is very dangerous if not being used for legitimate purposes!!! </h4>
-  <p> In the competition we may want to disable this type of connection, if no other services are used it.
-  To do this, you can modify the current group policy objects to block the connection.</p>
-  <p> If there are no group policy objects by default, new objects can be made that block the connection.
-  This is the same process as creating the objects defined above but instead of allowing the connections they are blocked. </p>
+  
