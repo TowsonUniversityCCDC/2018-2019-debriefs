@@ -32,4 +32,44 @@ on of the main points of using proxmox</h5>
 <h5>In order for you to use the keys "Ctrl+alt+del" in your VM, you have to click the button with the 4 blocks with an
 arrow pointing down and you will see an option called "Ctrl+alt+del".</h5>
 </ul>
-<
+<h4>Set a Static IP address</h4>
+<ul>
+<li>Right click on "Network" in the task bar</li>
+  <li>Open Network And Sharing Center</li>
+  <li>Click Change adapter Setting</li>
+  <li>Right click on Ethernet</li>
+  <li>Select properties</li>
+  <li>Click "Internet Protocol Version 4 (TCP/IPv4)"</li>
+  <li>Click Properties</li>
+  <h5>Use the following settings:</h5>
+  <li>IP address: 192.168.2.[The ID Number of your VM]</li>
+  <li>Subnet Mask: 255.255.0.0</li>
+  <li>Default Gateway: 192.168.1.2</li>
+  <li>Preferred DNS Server: 8.8.8.8</li>
+</ul>
+<h4>Click Add Roles and Features from the Server Manager Dashboard</h4>
+<ul>
+<li>Click Next</li>
+  <li>Select Role based or feature based installation, click next</li>
+  <li>Leave the default server selection, click next</li>
+  <h4>Server Roles</h4>
+  <li>Click Active Directory Domain Services</li>
+  <li>Click Add Features</li>
+  <li>Click Next</li>
+  <li>Click Next twice (landing on the confirmation page)</li>
+  <li>Click "Restart the Destination Server automatically if required"</li>
+  <li>Install</li>
+  <li>Close</li>
+</ul>
+<h4>Click the Yellow Notifications Flag at the Top Right of the screen</h4>
+<ul>
+<li>Click promote this Server to a Domain Controller</li>
+  <li>Select Add a New Forest</li>
+  <li>Name your domain:</li>
+  <h5>We recommend: [yourlastname].domain</h5>
+  <li>Enter your DSRM password</li>
+  <h5>This can be used to boot the Domain Controller in Safe Mode</h5>
+  <h5>We recommend either use the same as your administrator password,
+    or record your choice in the notes.</h5>
+  
+</ul>
