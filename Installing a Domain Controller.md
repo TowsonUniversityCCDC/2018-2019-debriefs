@@ -71,5 +71,12 @@ arrow pointing down and you will see an option called "Ctrl+alt+del".</h5>
   <h5>This can be used to boot the Domain Controller in Safe Mode</h5>
   <h5>We recommend either use the same as your administrator password,
     or record your choice in the notes.</h5>
-  
+  <li>You will get the following warning:</li>
+<h5>"A delegation for this DNS server cannot be created because the 
+  authoritative parent zone cannot be found or it does not run Windows DNS server."</h5>
+  <li>Click Next</li>
+  <li>Wait for the NetBIOS name field to populate, then click next.</li>
+  <li>Click next twice</li>
+  <li>Install</li>
 </ul>
+  <h6>Now you are done.</h6>
