@@ -19,4 +19,24 @@ Advanced Security -> Windows Firewall with Advanced Security (again) -> Inbound 
 <b>Note:</b> 
 <h6>Group Policy is applied to domain members at a specific time interval.
 To force an update on a particular workstation, run the command:</h6>
-<strong>gpupdate</strong>
+<b>gpupdate</b>
+<h5>Challenges:</h5>
+<ul> 
+  <li> Copy a file with SMB </li>
+  <li> From your Windows Workstation (not you Domain Controler), log into your domain using your Domain Administrator account.</li>
+  <li>Open a command prompt and copy the .txt file from your Domain Controller onto your Local Windows Workstation.</li>
+</ul>
+<h6>You will need the commands:</h6>
+<ul> 
+ <li><b>dir</b></li>
+ <li><b>copy</b></li>
+ </ul>
+ <h6>With SMB enabled, you will have remote access to the file system of any domain members.</h6>
+ <h6> To designate a filepath on the remote machine, use the following syntax:</h6>
+ <b>\\[nameOfRemoteSystem]\c$\[filePathYouWant]</b>
+ <ul>
+  <li>Add a new Domain User</li>
+  <li>You will need the command:</li>
+  <b>net user</b>
+  <li> Confirm that the new user appears in the AD.</li>
+</ul>
