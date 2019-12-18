@@ -21,9 +21,9 @@
 <h4>Join the Domain</h4>
 <ul>
 <li>Open File Explorer</li>
-<li>Find "This PC"</li>
+<li>Find the tab "This PC"</li>
 <li>Right Click -> Properties</li>
-<li> Scroll to "Computer Name, Domain, and Workgroup Settings"</li>
+<li> Go to "Computer Name, Domain, and Workgroup Settings"</li>
 <li>Select Domain</li>
 <li>Enter the name of your domain</li>
 <li>Click ok</li>
